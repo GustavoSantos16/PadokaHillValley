@@ -1,0 +1,383 @@
+
+/*responsivo*/
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+    a:link{
+    text-decoration: none;
+}
+
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+ 
+
+/*************CABEÇALHO***************/
+header{
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    position: fixed;
+    z-index: 999;
+}
+
+/************************************************/
+
+/************CONTEUDO************/
+
+/****redes sociais******/
+#caixa-redes-sociais{
+    width: 110px;
+    height: 350px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    position: fixed;
+    display: none;
+    
+}
+.rede-social{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    
+}
+.rede-social:hover {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+#main{
+    width: 100%;
+    height: 1700px;    
+}
+#content{
+    width: 100%;
+    height: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:gainsboro;
+    
+}
+
+#titulo-materia{
+    width: 800px;
+    height: 100px;
+    margin-top: 205px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+    
+}
+
+/********************/
+/*****Caixa com as informaçoes da loja e endereço*****/
+
+
+
+
+#titulo-section{
+    width: 100%;
+    height: 40px;
+    margin-top: -90px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color:#000000;
+    display: none;
+ 
+}
+
+#mapa-lojas{
+    width: 100%;
+    height: 600px;
+    margin-top: 300px;
+    position: absolute;
+  
+}
+
+#mapa{
+    width: 100%;
+    height:1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    
+}
+    .mapa-img{
+        width:100%;
+        height:100%;
+    }
+
+#caixa-lojas{
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+    margin-top: -1300px;
+    background-color: black;
+    opacity: 0.9;
+    color:white;
+    border-radius: 5px;
+    overflow: auto;
+    
+}
+
+
+.loja{
+    width: 95%;
+    height: 25%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    font-size: 42px;
+    cursor: pointer;
+}
+
+.loja:hover{
+    color:darkorange;
+}
+
+.inf-loja{
+    width: 60%;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.foto-loja{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.foto-loja img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/******FOOOTER****/
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+}
+
+
+
+
+
+
+
+/*WEB ORIGINAL*/
+@media screen and (min-device-width:521px){
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+ 
+
+/*************CABEÇALHO***************/
+header{
+    width: 100%;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    position: fixed;
+    z-index: 999;
+}
+
+/************************************************/
+
+/************CONTEUDO************/
+
+/****redes sociais******/
+#caixa-redes-sociais{
+    width: 110px;
+    height: 350px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    position: fixed;
+    
+}
+.rede-social{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    
+}
+.rede-social:hover {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+#main{
+    width: 100%;
+    height: 1100px;    
+}
+#content{
+    width: 1500px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:gainsboro;
+    
+}
+
+#titulo-materia{
+    width: 800px;
+    height: 100px;
+    margin-top: 105px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+}
+
+/********************/
+/*****Caixa com as informaçoes da loja e endereço*****/
+
+
+
+
+#titulo-section{
+    width: 900px;
+    height: 40px;
+    margin-top: -90px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color:#000000;
+    margin-left: 200px;
+}
+
+#mapa-lojas{
+    width: 1500px;
+    height: 600px;
+    margin-top: 250px;
+    position: absolute;
+  
+}
+
+#mapa{
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+    
+}
+
+#caixa-lojas{
+    position: absolute;
+    width: 400px;
+    height: 580px;
+    margin-top: -595px;
+    margin-left: 300px;
+    background-color: black;
+    opacity: 0.9;
+    color:white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    overflow: auto;
+    
+}
+
+
+.loja{
+    width: 375px;
+    height: 90px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.loja:hover{
+    color:darkorange;
+}
+
+.inf-loja{
+    width: 270px;
+    height: 100px;
+    float: left;
+    
+}
+
+.foto-loja{
+    width: 90px;
+    height: 90px;
+    float: right;
+}
+
+.foto-loja img{
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+
+
+/******FOOOTER****/
+footer{
+    width: 1500px;
+    height: 100px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+
+}
+
+
+

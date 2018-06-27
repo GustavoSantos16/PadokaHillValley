@@ -1,0 +1,348 @@
+/*RESPONSIVO*/
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+    
+a:link{
+    text-decoration: none;
+}
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+ 
+
+/*************CABEÇALHO***************/
+header{
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    position: fixed;
+    z-index: 999;
+}
+
+/************************************************/
+
+/************CONTEUDO************/
+#main{
+    width: 100%;
+    height: 1700px;    
+}
+#content{
+    width: 100%;
+    height: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gainsboro;
+    
+
+}
+#caixa-redes-sociais{
+    width: 110px;
+    height: 350px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    position: fixed;
+    display: none;
+    
+}
+.rede-social{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    
+}
+.rede-social:hover {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+#titulo-materia{
+    width: 800px;
+    height: 100px;
+    margin-top: 105px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+    display: none;
+}
+/****************************/
+/**Produto do mes**/
+
+.titulo-produto-mes{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+/********************/
+
+/***LISTA PRODUTOS Do mês ***/
+#caixa-produto{
+    width: 100%;
+    height: 1280px;
+    background-size: cover;
+    margin-top: 280px;
+    position: absolute;
+    
+    
+}
+
+#produto{
+    width: 83%;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 7px 5px  15px rgba(0,0,0,.5);
+    border-radius: 5px;
+    background-color: bisque;
+      
+}
+
+#foto-produto{
+    width: 100%;
+    height: 650px;
+    background-color: bisque;
+}
+#foto-produto img{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+
+#nome-produto{
+    width: 100%;
+    height: 95px;
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 15px;
+}
+
+#descricao-preco{
+    width: 100%;
+    height: 305px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#preco{
+    font-size: 40px;
+    color:green;
+}
+
+/****************************/
+
+/**************************/
+
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+}
+
+
+
+/*ORIGINAL DESKTOP*/
+@media screen and (min-device-width:521px){
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+ 
+
+/*************CABEÇALHO***************/
+header{
+    width: 100%;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    position: fixed;
+    z-index: 999;
+}
+
+/************************************************/
+
+/************CONTEUDO************/
+#main{
+    width: 100%;
+    height: 1200px;    
+}
+#content{
+    width: 1500px;
+    height: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gainsboro;
+    
+
+}
+#caixa-redes-sociais{
+    width: 110px;
+    height: 350px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    position: fixed;
+    
+}
+.rede-social{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    
+}
+.rede-social:hover {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+#titulo-materia{
+    width: 800px;
+    height: 100px;
+    margin-top: 105px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+}
+/****************************/
+/**Produto do mes**/
+
+.titulo-produto-mes{
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+/********************/
+
+/***LISTA PRODUTOS Do mês ***/
+#caixa-produto{
+    width: 1500px;
+    height: 900px;
+    background-size: cover;
+    margin-top: 200px;
+    position: absolute;
+    
+    
+}
+
+#produto{
+    width: 700px;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 7px 5px  15px rgba(0,0,0,.5);
+    border-radius: 5px;
+    background-color: bisque;
+      
+}
+
+#foto-produto{
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+}
+#foto-produto img{
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+}
+
+
+#nome-produto{
+    width: 700px;
+    height: 65px;
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 15px;
+}
+
+#descricao-preco{
+    width: 700px;
+    height: 205px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#preco{
+    font-size: 38px;
+    color:green;
+}
+
+/****************************/
+
+/**************************/
+
+footer{
+    width: 1500px;
+    height: 100px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+}
+
+
+

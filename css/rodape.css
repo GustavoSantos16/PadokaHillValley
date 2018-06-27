@@ -1,0 +1,98 @@
+/*RESPONSIVO*/
+
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+#caixa-rodape{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+}
+
+#logo-rodape{
+    width: 25%;
+    height: 100%;
+    background-image: url(../imagens/logo.png);
+    background-size: cover;
+    margin-left: 20px;
+    float: left;
+}
+#endereco-padaria-rodape{
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+.informacoes-endereco-rodape{
+    margin-top: -1px;
+    color:darkorange;
+    
+}
+
+#copyrights{
+    width: 500px;
+    height: 30px;
+    float:right;
+    color:darkorange;
+    margin-top: 70px;
+    display: none;
+}
+    
+#caixa-icones-sociais{
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+
+.social-net{
+     width: 100%;
+    height: 30%;
+    margin-bottom: 5px;
+}
+.social-net img{
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+
+/*WEB ORIGINAL*/
+@media screen and (min-device-width:521px){
+#caixa-rodape{
+    width: 1500px;
+    height: 100px;
+    font-size: 25px;
+}
+
+#logo-rodape{
+    width: 170px;
+    height: 100px;
+    background-image: url(../imagens/logo.png);
+    background-size: cover;
+    margin-left: 20px;
+    float: left;
+}
+#endereco-padaria-rodape{
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.informacoes-endereco-rodape{
+    margin-top: -1px;
+    color:darkorange;
+    
+}
+
+#copyrights{
+    width: 500px;
+    height: 30px;
+    float:right;
+    color:darkorange;
+    margin-top: 70px;
+}
+#caixa-icones-sociais{
+    display: none;
+}
+}

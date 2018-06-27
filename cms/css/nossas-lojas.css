@@ -1,0 +1,203 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+}
+
+/*Formulário*/
+#caixa-formulario{
+    width: 475px;
+    height: 220px;
+    margin-top: 30px;
+    float: left;
+}
+
+.box-dados{
+    width: 217px;
+    height: 70px;
+    float: left;
+    padding-left: 20px;
+}
+
+#numero-input{
+    width: 60px;
+}
+
+.box-dados input{
+    width: 200px;
+    height: 20px;
+    border-color: #000000;
+    border-radius: 3px;
+}
+
+select{
+    height: 25px;
+    border-color: #000000;
+    border-radius: 3px;
+}
+.titulo-input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+/*****************************/
+
+/*Formataçao da foto*/
+
+#caixa-para-foto{
+    width: 475px;
+    height: 200px;
+/*    background-color: dodgerblue;*/
+    float: right;
+    margin-top: 20px;
+}
+#caixa-foto{
+    width: 380px;
+    height: 198px;
+/*    background-color: aqua; */
+    margin-right: auto;
+    margin-left:auto;
+    border:1px solid black;
+}
+
+#caixa-foto img{
+    width: 380px;
+    height: 198px;
+}
+
+.file{
+    margin-top: 5px;
+    margin-left: 45px;
+}
+/*Famosos botões XD*/
+
+#centralizar-botoes{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    margin-top: 230px;
+    margin-left:345px; 
+    
+}
+#botao-salvar{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color: darkorange;
+}
+#botao-limpar{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color:black;
+    margin-left: 30px;
+}
+#botao-salvar:hover{
+    color:white;
+    cursor: pointer;
+}
+#botao-limpar:hover{
+    color:white;
+    cursor: pointer;
+}
+
+
+/*Tabela de titulos*/
+#caixa-tabela{
+    width: 900px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 25px;
+}
+
+#tabela-titulos{
+    width:900px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orange;
+}
+#tabela-titulos td{
+    width: 200px;
+    height: 35px; 
+    color:orange;
+    background-color: black;
+}
+
+/*Tabela de Dados*/
+
+#tabela-dados{
+    width:900px;
+    height: 140px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+#tabela-dados .linha{
+    width: 900px;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+#tabela-dados .campo{
+    width: 204px;
+    height: 30px; 
+    background-color: white;
+    float: left;
+    border-left: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+/*    white-space: nowrap;*/
+    text-overflow: ellipsis;
+   
+}
+
+.foto-opcoes{
+    width: 25px;
+    height: 25px;
+    
+}
+
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}

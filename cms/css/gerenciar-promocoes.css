@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+}
+
+#caixa-tabela{
+    width: 900px;
+    margin-left: 25px;
+    height: 400px;
+    background-color: gainsboro;
+    margin-top: 30px;
+        
+    
+}
+
+
+
+/*Tabela para os titulos*/
+#tabela-titulos{
+    width:900px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orange;
+}
+#tabela-titulos td{
+    width: 200px;
+    height: 35px; 
+    color:orange;
+    background-color: black;
+}
+
+/*Tabela para os campos*/
+
+#tabela-usuarios{
+    width:900px;
+    height: 355px;
+    overflow-y: auto;
+    overflow-x: hidden;        
+     
+    
+}
+#tabela-usuarios .linha{
+    width: 900px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+#tabela-usuarios .campo{
+    width: 204px;
+    height: 20px; 
+    background-color: white;
+    float: left;
+    border-left: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   
+}
+
+.foto-opcoes{
+    width: 25px;
+    height: 25px;
+}
+
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}

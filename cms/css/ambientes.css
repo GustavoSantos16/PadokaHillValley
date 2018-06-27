@@ -1,0 +1,205 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+}
+
+#caixa-cadastro{
+    width: 900px;
+    height: 320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.caixa-titulo-pag{
+    width: 450px;
+    height: 70px;
+    float: left;
+    
+}
+
+.desc-inputs{
+    width:230px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+   
+}
+.input{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+}
+
+
+textarea{
+    width: 450px;
+    height: 150px;
+    resize: none;
+}
+/*Aqui serão armazenadas as fotos*/
+#caixa-fotos{
+    float: left;
+    width: 450px;
+    height: 320px;
+    
+}
+
+.box-foto{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.foto-quadrado{
+    width: 198px;
+    height: 120px;
+    border: 1px solid #000000;
+}
+
+.foto-quadrado img{
+    width: 198px;
+    height: 120px;
+    
+}
+
+
+
+
+#botao-salvar{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color: darkorange;
+    
+    
+}
+
+#botao-salvar:hover{
+    color:white;
+    cursor: pointer;
+    
+}
+
+#botao-limpar{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color:black;
+    
+    
+}
+
+#botao-limpar:hover{
+    color:white;
+    cursor: pointer;
+}
+
+
+/*Tabela de Dados*/
+
+/*Tabela de titulos*/
+#caixa-tabela{
+    width: 900px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+
+
+}
+
+#tabela-titulos{
+    width:900px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orange;
+}
+#tabela-titulos td{
+    width: 200px;
+    height: 35px; 
+    color:orange;
+    background-color: black;
+}
+
+/*Tabela de Dados*/
+
+#tabela-dados{
+    width:900px;
+    height: 140px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: gainsboro;
+}
+#tabela-dados .linha{
+    width: 900px;
+    height: 140px;
+    border-bottom: 1px solid black;
+}
+#tabela-dados .campo{
+    width: 204px;
+    height: 115px; 
+    background-color: white;
+    float: left;
+    border-left: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+/*    white-space: nowrap;*/
+    text-overflow: ellipsis;
+   
+}
+
+.foto-opcoes{
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+}
+/**/
+
+.foto-tabela{
+    width: 204px;
+    height: 115px; 
+}
+
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}

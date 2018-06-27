@@ -1,0 +1,189 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+}
+
+
+
+
+#caixa-tabela{
+    width: 900px;
+    margin-left: 25px;
+    height: 200px;
+    background-color: gainsboro;
+     border-bottom: 1px solid black;
+    
+}
+
+/*Tabela para os titulos*/
+#tabela-titulos{
+    width:100%;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orange;
+}
+#tabela-titulos td{
+   width: 200px;
+    height: 35px; 
+    color:orange;
+    background-color: black;
+    
+}
+
+/*Tabela para os campos*/
+#overflow-tabela{
+    width: 917px;
+    height: 155px;
+    overflow: auto;
+}
+
+#tabela-niveis{
+    width:900px;
+    height: 155px;
+    overflow: auto;
+    background-color: black; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+#tabela-niveis .linha{
+    width: 900px;
+    height: 45px; 
+    background-color: white;
+    border-bottom: 1px solid black;
+    float: left;
+   
+}
+
+#tabela-niveis .campo{
+    width: 278px;
+    height: 25px; 
+    background-color: white;
+    border-left: 1px solid black;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+     white-space: nowrap;
+    text-overflow: ellipsis;
+    
+   
+}
+
+.foto-opcoes{
+    width: 25px;
+    height: 25px;
+}
+
+/**********formularios*******/
+form{
+    width: 780px;
+    height: 200px;
+    
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa-inputs{
+    width: 230px;
+    height: 60px;
+/*    background-color: lavender;*/
+/*    float: left;*/
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.desc{
+    width:230px;
+    height: 30px; 
+    font-size: 18px;
+   
+    
+}
+.obj-input{
+    width:230px;
+    height: 20px;
+ 
+}
+
+.caixa-inputs textarea{
+    width: 500px; 
+    height: 85px;  
+    resize: none;
+    float: left;
+    border-style: none; 
+    border: 1px solid black;
+    border-radius: 2px; 
+}
+
+input{
+    border-style: none; 
+    border: 1px solid black;
+    border-radius: 2px;    
+}
+
+/*BOTÕES*/
+
+#botao-salvar{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color: darkorange;
+    margin-left: 30px;
+}
+#botao-limpar{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color:black;
+    margin-left: 30px;
+}
+#botao-salvar:hover{
+    color:white;
+    cursor: pointer;
+}
+#botao-limpar:hover{
+    color:white;
+    cursor: pointer;
+}
+
+
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}

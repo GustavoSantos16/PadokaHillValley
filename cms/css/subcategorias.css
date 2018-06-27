@@ -1,0 +1,163 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+}
+
+/*Caixa do Formulário*/
+#caixa-form{
+    width: 400px;
+    height: 250px;
+/*    background-color: dodgerblue;*/
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.input-texto{
+    width: 300px;
+    height: 30px;
+}
+
+.select-cat{
+    width: 150px;
+    height: 25px;
+}
+
+#caixa-botoes{
+    width: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*BOTÕES*/
+
+#botao-salvar{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color: darkorange;
+    
+}
+#botao-limpar{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color:black;
+    margin-left: 30px;
+}
+#botao-salvar:hover{
+    color:white;
+    cursor: pointer;
+}
+#botao-limpar:hover{
+    color:white;
+    cursor: pointer;
+}
+
+/**/
+
+
+
+#caixa-tabela{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+/*    background-color: blue;*/
+    margin-top: -50px; 
+}
+
+
+
+/*Tabela para os titulos*/
+#tabela-titulos{
+    width:500px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orange;
+}
+#tabela-titulos td{
+    width: 50%;
+    height: 35px; 
+    color:orange;
+    background-color: black;
+}
+
+/*Tabela para os campos*/
+
+#tabela-usuarios{
+    width:500px;
+    height: 160px;
+    overflow-y: auto;
+    overflow-x: hidden;   
+/*    background-color: aqua;*/
+     
+    
+}
+#tabela-usuarios .linha{
+    width: 500px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+#tabela-usuarios .campo{
+    width: 228px;
+    height: 20px; 
+    background-color: white;
+    float: left;
+    border-left: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   
+}
+
+.foto-opcoes{
+    width: 25px;
+    height: 25px;
+}
+
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}

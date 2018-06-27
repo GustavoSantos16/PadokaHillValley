@@ -1,0 +1,366 @@
+/*mobile*/
+
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+a:link{
+    text-decoration: none;
+}
+
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+ 
+
+/*************CABEÇALHO***************/
+header{
+    width: 100%;
+    height: 180px;
+    font-weight: 700;
+    position: fixed;
+    z-index: 999;
+}
+
+/************************************************/
+
+/************CONTEUDO************/
+#main{
+    width: 100%;
+    min-height: 1900px; 
+    height: auto;   
+}
+#content{
+    width: 100%;
+    min-height: 1800px;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gainsboro;
+
+    
+}
+/****redes sociais******/
+#caixa-redes-sociais{
+    width: 110px;
+    height: 350px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    position: fixed;
+    display: none;
+    
+}
+.rede-social{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    
+}
+.rede-social:hover {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+/********************/
+
+
+/********PROMOÇOES******/
+#titulo-materia{
+    width: 800px;
+    height: 100px;
+    margin-top: 105px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+    display: none;
+}
+
+#section-promocoes{
+    width: 100%;
+    height: 1400px;
+    padding-top: 180px;
+    height: auto;
+    overflow-y: hidden;
+}
+
+
+.caixa-promocoes{
+    width: 100%;
+   min-height:500px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;    
+}
+    
+.foto-promotion{
+    width:100%; 
+    height:100%;   
+}
+
+.item-promo{
+    width: 45%;
+    height: 655px;
+    float: left;
+    margin-left: 30px;
+    transition: 0.5s;
+    text-align: center;
+    background-color: bisque;
+    border :2px solid gray;
+    margin-bottom: 50px;
+    
+}
+
+    .item-promo img{
+        width: 100%;
+        height: 55%;
+        margin-top: 5px;
+    }
+
+.item-promo:hover{
+/*    margin-top: 20px;*/
+    transition: 0.5s;
+    cursor: pointer;
+    border-color: black;
+}
+
+.nome-item-promo{
+    width: 100%;
+    height: 80px;
+    font-size: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+
+.preco-antigo{
+    width: 100%;
+    height: 50px;
+    font-size: 38px;
+    text-decoration: line-through;
+    color:red;
+}
+.preco-promo{
+    width: 100%;
+    height: 120px;
+    font-size: 55px;
+    color:green;
+}
+
+
+
+/**************************/
+
+
+
+
+
+
+/******FOOOTER****/
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+}
+
+
+/*DESKTOP*/
+@media screen and (min-device-width:521px){
+    
+a:link{
+    text-decoration: none;
+}
+
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+ 
+
+/*************CABEÇALHO***************/
+header{
+    width: 100%;
+    height: 85px;
+    font-weight: 700;
+    position: fixed;
+    z-index: 999;
+}
+
+/************************************************/
+
+/************CONTEUDO************/
+#main{
+    width: 100%;
+    min-height: 1900px; 
+    height: auto;   
+}
+#content{
+    width: 1500px;
+    min-height: 1800px;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gainsboro;
+
+    
+}
+/****redes sociais******/
+#caixa-redes-sociais{
+    width: 110px;
+    height: 350px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    position: fixed;
+    
+}
+.rede-social{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    
+}
+.rede-social:hover {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+/********************/
+
+
+/********PROMOÇOES******/
+#titulo-materia{
+    width: 800px;
+    height: 100px;
+    margin-top: 105px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+}
+
+#section-promocoes{
+    width: 1500px;
+    height: 1400px;
+    padding-top: 200px;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.caixa-promocoes{
+    width: 1350px;
+   min-height:500px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    
+}
+    .foto-promotion{
+        width: 100%;
+        height: 550px;
+    }
+
+.item-promo{
+    width: 300px;
+    height: 405px;
+    float: left;
+    margin-left: 55px;
+    transition: 0.5s;
+    text-align: center;
+    background-color: bisque;
+    border :2px solid gray;
+    margin-bottom: 50px;
+    
+}
+    .item-promo img{
+        width: 300px;
+        height: 300px;
+    }
+
+.item-promo:hover{
+/*    margin-top: 20px;*/
+    transition: 0.5s;
+    cursor: pointer;
+    border-color: black;
+}
+
+.nome-item-promo{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+
+.preco-antigo{
+    width: 300px;
+    height: 20px;
+    font-size: 15px;
+    text-decoration: line-through;
+    color:red;
+}
+.preco-promo{
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    color:green;
+}
+
+
+
+/**************************/
+
+
+
+
+
+
+/******FOOOTER****/
+footer{
+    width: 1500px;
+    height: 100px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+}
+

@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+    
+}
+
+#caixa-input-titulo{
+    width: 600px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+.titulo{
+    width: 600px;
+    height: 30px;
+    
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#titulo-pagina{
+    width: 600px;
+    height: 60px;
+    font-size: 50px;
+    margin-left: 50px;
+    
+}
+
+#caixa-foto{
+    width: 900px;
+    height: 230px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#caixa-foto img{
+    width: 900px;
+    height: 230px;
+    position: absolute;
+}
+
+
+#botao-salvar{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color: darkorange;
+    margin-left: 30px;
+    float: right;
+    margin-right: 25px;
+    margin-top: -30px;
+}
+
+#botao-salvar:hover{
+    color:white;
+    cursor: pointer;
+    
+}
+
+.file{
+   margin-left: 25px;
+}
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}

@@ -1,0 +1,140 @@
+body{
+    font-family: sans-serif;
+   background-color: burlywood;
+}
+
+#main{
+    width: 950px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+
+/*Conteudo*/
+#content{
+    width: 100%;
+    height: 520px;
+    background-color: gainsboro;
+    border-top: 1px solid #000000;
+}
+
+.divisores{
+/*    background-color: forestgreen;*/
+    width: 475px;
+    height: 470px;
+    float: left;
+    margin-top: 50px;
+}
+
+.caixa-inputs{
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+    
+    
+}
+
+.nome-input{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+   
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+textarea{
+    width:450px;
+    height:150px;
+    font-size: 20px;
+    resize: none;
+}
+select{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#caixa-para-foto{
+    width: 475px;
+    height: 200px;
+/*    background-color: dodgerblue;*/
+    float: right;
+    margin-top: 20px;
+}
+#caixa-foto{
+    width: 380px;
+    height: 198px;
+/*    background-color: aqua; */
+    margin-right: auto;
+    margin-left:auto;
+    border:1px solid black;
+}
+
+#caixa-foto img{
+    width: 380px;
+    height: 198px;
+}
+
+.file{
+    margin-top: 5px;
+    margin-left: 45px;
+}
+
+#botao-salvar{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color: darkorange;
+    position: absolute;
+    margin-left: 670px;
+    
+}
+
+#botao-salvar:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#botao-limpar{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border:1px solid black;
+    color:black;
+    position: absolute;
+    margin-left: 800px;
+}
+
+#botao-limpar:hover{
+    color:white;
+    cursor: pointer;
+}
+/*Foooter*/
+footer{
+   width: 100%;
+    height: 40px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: orange;
+    padding-top: 20px;
+}
